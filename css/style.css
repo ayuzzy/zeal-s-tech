@@ -1,0 +1,128 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(18, 204, 204);
+    
+}
+.container{
+    background-color: white;
+    width: 30%;
+    /* height: 98vh; */
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 5px rgba(151, 148, 148, 0.699),2px 3px 20px rgba(170, 168, 168, 0.699);
+
+}
+
+.container .iner-container{
+    width: 80%;
+    margin:auto;
+    padding: 60px 0px;
+}
+.container .iner-container .text-center{
+    text-align: center;
+    font-weight: bolder;
+}
+.container .iner-container .form{
+    padding:30px 0px;
+}
+
+.container .iner-container .form .form-input{
+    border-bottom: 2px solid rgba(190, 186, 186, 0.842);
+    margin:10px 0px;
+    padding-bottom: 7px;
+}
+.container .iner-container .form .form-input input{
+   width: 90%;
+   border:none;
+   outline: none;
+}
+.container .iner-container .form .form-input span{
+    font-size: 18px;
+ }
+
+.container .iner-container .form label{
+    font-size:20px;
+}
+.container .iner-container .form p{
+    text-align: right;
+}
+.container .iner-container .form button{
+    width: 100%;
+    margin:10px 0px;
+    height:40px;
+    border-radius: 15px;
+    border:none;
+    background: linear-gradient(to right,purple,crimson);
+    color:white;
+}
+
+.container .iner-container ul{
+   width:50%;
+   margin: auto;
+   padding-top:30px;
+   text-align: center;
+}
+.container .iner-container ul li{
+  display: inline-block;
+  background-color: blue;
+  padding:13px 16px;
+  border-radius:50%;
+}
+.container .iner-container ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container .iner-container .signin_footer
+{   padding-top: 60px;
+}
+.container .iner-container .signin_footer a{
+    font-size:20px; text-decoration: none; color:black
+}
+.container .iner-container .signin_footer a:hover
+{   color:rgb(57, 57, 223);
+    text-decoration: none;  
+}
+
+
+
+@media screen and (max-width:1280px){
+    .container{
+        width:60%;
+        }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width:80%;
+    }
+.container .iner-container ul{
+    width:70%;
+
+}
+.container .iner-container ul li{
+    padding:10px 12px;
+  }
+    
+}
+@media screen and (max-width:280px){
+    .container{
+        width:90%;
+    }
+    .container .iner-container ul li{
+        padding:10px 12px;
+        font-size:7px;
+      }
+      .container .iner-container ul li a{
+        font-size:10px;
+      }
+
+}
+
+

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.container{
+    padding: 0 100px 0 100px;
+}
+
+.heading { 
+    margin: auto;
+    width: 20%;
+}
+.heading h1 {
+    font-size: 50px;
+}
+.heading .breaker {
+    height: 10px;
+    width: 60px;
+    background: royalblue;
+}
+.navbar {
+  background-color: black;
+  padding: 15px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .port_name {
+    padding-top: 10px 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 3px 5px rgba(128, 128, 128, 0.527);
+} 
+.navbar ul {
+    padding-top: 10px ;
+   padding-bottom: 0%;
+    text-align: center;
+}
+.navbar ul li {
+    display: inline;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px ;
+    padding-bottom: 0px;
+}
+.navbar ul li a:hover {
+    color: cadetblue;
+    transition: 0.90s ease-in-out;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* padding: 5px 5px;  */
+    background-image: url(img_sailboat.jpg); 
+    /* border: 15px solid red; */ 
+}
+.header .header_content{
+    display: flex;
+    padding: 5px 5px; 
+    justify-content: space-between;
+}
+.header .header_content .side {
+     padding:200px 100px 250px 150px; 
+    margin: auto;
+}
+.header .header_content .side h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-decoration: dotted;
+    
+}
+.header .header_content .side2 img {
+   inline-size: 350px;
+   padding-top: 20%;
+   
+} 
+.container .about__me{
+    
+}
+.about_me {
+   height:100vh;
+   margin: 100px;
+   /* background-color: #252627; */
+ 
+}
+.about_me h1{
+    font-size: 10rem;
+    z-index: 0;
+    opacity: .1; 
+}
+.about__me content {
+    max-width: 900px;
+    background-color: #252627;
+    box-shadow: 0 0 1.2rem rgba(0, 0,0,.25);
+    /* padding: 50px;  */
+    position: relative;
+    top: -70px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    /* background-color: #252627; */
+    /* display: flex; */
+ } 
+.about__me content .p {
+    font-size: 1.3rem;
+    color: #bebebe;
+   margin: 30px solid RED;
+
+}
+
+
+
+
+
+
+
